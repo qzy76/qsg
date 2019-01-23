@@ -1,0 +1,61 @@
+@-webkit-keyframes load {
+  0% {
+	stroke-dashoffset: 0;
+  }
+}
+@keyframes load {
+  0% {
+	stroke-dashoffset: 0;
+  }
+}
+.pingjia2 {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+}
+.pingjia2 > i {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: #93A2AC;
+  font-family: Lato;
+  font-weight: 100;
+  margin: 2rem;
+}
+.pingjia2 > i:before {
+  content: attr(data-name);
+  position: absolute;
+  width: 100%;
+  bottom: -2rem;
+  font-weight: 400;
+}
+.pingjia2 > i:after {
+  content: attr(data-percent);
+  position: absolute;
+  width: 100%;
+  top: 3.7rem;
+  left: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+.pingjia2 svg {
+  width: 10rem;
+  height: 9rem;
+}
+.pingjia2 svg:nth-child(2) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: rotate(-90deg);
+		  transform: rotate(-90deg);
+}
+.pingjia2 svg:nth-child(2) path {
+  fill: none;
+  stroke-width: 25;
+  stroke-dasharray: 629;
+  stroke: #fff;
+  opacity: .9;
+  -webkit-animation: load 3s;
+		  animation: load 3s;
+}

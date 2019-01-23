@@ -1,0 +1,134 @@
+.file {
+	display: block;
+	border-radius: 4px;
+	float: left;
+	width: 102px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	background: #0ae !important;
+	color: #fff;
+}
+
+.file:hover {
+	color: #fff !important;
+}
+
+.file input {
+	position: absolute;
+	right: 0;
+	top: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	cursor: pointer;
+}
+
+.field img {
+	width: 300px;
+	float: left;
+}
+
+.floatnone {
+	float: none;
+}
+.field .addBlock {
+	margin-left: 5px;
+	background: #08bbe1;
+	cursor: pointer;
+	border-radius: 4px;
+	float: left;
+	display: block;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	width: 120px;
+	height: 30px;
+	color: #fff;
+}
+.field select.qzy {
+	width: 100px;
+	line-height: 17px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.field select.input.qzy1{left: 220px;}
+.field select.input.qzy2{left: 110px;}
+#listform div table tr td i{
+	display: block;width: 60px; height: 60px; text-align: center; line-height: 60px; font-style: normal;color: #e5e5e5;
+}
+/*.act1{
+	border-radius:4px 0 0 4px;
+	border-right: 0px;
+	float: left;
+}
+.button.border-main.act2{
+	border-radius:0 4px 4px 0;
+	float: left;
+	border-color: red;
+	color: red;
+}
+.button.border-main.act2:hover{
+	color: #fff;
+	background: red;
+}*/
+.field .chooseP,.field .choosepro{
+	float: left;
+	display: block;
+	width: 400px; height: 200px;
+}
+.field .aDseaver{
+	float: left;
+	width: 100px;
+	height: 200px;
+}
+.field .aDseaver i{
+	font-style: normal;
+	display: block;
+	width: 90px;
+	text-align: center;
+}
+.field .aDseaver span,.field .isOK span{
+	cursor: pointer;
+	background: #08bbe1;
+	border-radius: 4px;
+	display: block;
+	width: 90px;
+	text-align: center;
+	color: #fff;
+	line-height: 40px;
+	font-size: 15px;
+	font-weight: 500;
+	height: 40px;
+	margin: 5px;
+}
+.field .isOK span{
+	float: left;
+}
+.field .isOK{
+	position: absolute;
+	right: 150px;
+	bottom: -50px;
+	cursor: pointer;
+}
+.field.ischoose{
+	 border:1px solid #ccc; width:88%; height:500px;overflow: scroll;
+}
+.ck{
+	 width:90%;border-bottom:1px solid #ccc;
+	 margin:10px auto;
+}
+.ck:after{content:"";display:block;clear:both; padding-bottom: 10px;} 
+.ck:nth-last-of-type(1){border-bottom:0px;}
+.ck select{
+	width:500px;height:100px;
+	display: block;
+	float: left;
+}
+.ck p:nth-of-type(2),.ck p:nth-of-type(3),.ck span{
+	display: block;
+	padding-left: 10px;
+}
+.ck span{
+	float: left;
+}

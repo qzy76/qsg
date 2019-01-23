@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* all style */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,span,i,select,label,a{ margin:0; padding:0; }
+body{font-size: 14px;font-family: "Microsoft YaHei";min-width: 1200px;} 
+html,body{ width:100%; height:100%;}
+a { text-decoration: none; outline: none;}
+a,input{outline:none;/* 去掉虚线框 */}
+ul,ol{list-style: none;}
+.clearfix:after {display: block;content: ".";height: 0;overflow: hidden; clear: both;}
+.clearfix { zoom: 1;}
+.fl{float: left;}
+.fr{float: right;}
+img {border: none;}
+i { font-style: normal;}
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+/*容器*/
+.xzw_starSys{padding:50px;margin:100px auto 30px;}
+.xzw_starBox{position:relative;width:150px;}
+/*极速秒评*/
+.xzw_starSys .description{clear:both;padding:10px 0px}
+.xzw_starSys .xzw_starBox i{font-size: 25px; color: #999; cursor: pointer;}
+.xzw_starSys .xzw_starBox i.choose{ color:#FACA0D;}
+.xzw_starSys .xzw_starBox b{
+	width: 50px;height: 25px;
+	line-height: 25px;
+	color: #FACA0D;
+	position: absolute;right: -60px;top: 0;
+}
+.prompt i{ float: left; color: #c00; font-size: 20px; line-height: 30px; font-weight: bold;}
+
+s,i{ font-style: normal;}ul{ list-style:none;}
+.ping_right{ width: 998px; height: 1000px; margin: 0 auto; border-top:1px solid #e7e7e7;}
+.pingjia{ width: 100%; height: 442px;}
+.ping_pic{ float: left; width: 440px; border:1px solid #e7e7e7; border-top: 0px;}
+.ping_proname{ padding-left: 30px; float: left; width: 516px; height: 440px; overflow: hidden;}
+.ping_proname h2{ padding-top:20px;font-size: 16px;}
+.ping_proname ul{ width: 100%; height: 100px;}
+.ping_proname ul{ font-size: 12px; padding-left: 0px;}
+.ping_proname ul li{ list-style-type: none; color: #333; height: 30px; line-height: 30px;}
+.ping_proname ul li span i{ font-size: 26px; color: #c00; font-weight: bold; font-family: "微软雅黑";}
+.ping_proname ul li span:nth-of-type(2){ padding-left: 50px;}
+.ts{ width: 100%; height: 150px; background: #f7f7f7; border: 1px solid #e7e7e7;}
+.ts .tishi{margin:10px 50px 0; display: block; width:350px; height: 50px; border: 1px solid #e7e7e7;}
+.ts .tishi s{ display:block; float: left; background: #fff; width:35px; height: 100%; color: orange; text-decoration: none; font-size: 25px; line-height: 50px; text-align: center;}
+.ts .tishi span{ display: block; width: 260px; height: 50px; padding-left:40px;line-height: 25px; color: #666;}
+.pj{ width: 978px; border: 1px solid #eee; background: #f7f7f7;}
+.pingjia1{ width: 978px; height: 275px;}
+.pingjia1 h3{ font-family: "微软雅黑"; padding:20px 40px 0; font-weight: 600; font-size: 18px; color: #333;}
+.pingjia1 .sp{float: left; width: 140px; height: 223px; padding: 10px;
+	
+}
+.pingjia1 .sp img{
+	border: 1px solid #e7e7e7;
+}
+.pingjia1 .pingtitle{ float: left; width: 550px; height: 223px; border: 1px solid #ddd; background: rgb(239,239,239);}
+.pingjia1 .pingtitle:first-child{
+	 margin:30px 0 0 30px;
+}
+.pingjia1 .pingtitle .pingt{ padding: 10px; width: 430px; height: 139px; border: none; border-bottom: 1px solid #ddd; outline-color: red;resize:none;overflow:auto; margin-left: 99px; background: #fff;}
+.pingjia1 .pingtitle1{ float: left; width: 550px; height: 40px; border: 1px solid #ddd; background: rgb(239,239,239); margin:0px 0 0 30px;}
+.pingjia1 .pingtitle .pingt1{ width: 450px; height: 63px; margin:-5px 0 0 99px; background: #fff;}
+.pingjia1 .pingtitle .pingt1 .filePic{ position: relative; width: 100px;}
+.pingjia1 .pingtitle .pingt1 .filePic i{ width: 40px; height: 40px; display: block; margin: -50px 0 0 10px; background: #999; position: relative;}
+.pingjia1 .pingtitle .pingt1 .filePic i s{ display: block; width: 30px; height: 30px;position: absolute; top: 5px; left: 5px; border-radius: 50%; background: #fff;}
+.pingjia1 .pingtitle .pingt1 .filePic i s b{ display: block; width: 26px; height: 26px;position: absolute; top: 2px; left: 2px; border-radius: 50%; background: #999; font-size: 24px; text-align: center; color: #fff; line-height: 24px;}
+.pingjia1 .pingtitle .pingt1 .filePic input{opacity: 0; position: relative; z-index: 1; width: 63px; height: 63px;}
+.pingjia1 .pingtitle .pingt1 .filePic span{ position: absolute; left: 70px; top:25px; color: #999;}
+.pingjia1 .pingtitle .pingt1 .filePic img{width: 55px;height: 55px;position: absolute;top: 3px;left: 100px;}
+.pingjia1 .pingstar{ float: left;}
+.pingjia1 .pingtitle .t1,.t2{width: 100px; position: absolute; display: block;text-align: center; font-size: 14px; left: 0px; color: #666;}
+.pingjia1 .pingtitle .t1{ height: 159px; line-height:160px;  top: 0px; border-bottom: 1px solid #ddd;}
+.pingjia1 .pingtitle .t2{ height: 63px; line-height:60px; top: 160px;}
+.pingjia1 .pingtitle textarea{ outline-color:#ccc;}
+.button{ clear: both; width: 100%; height: 50px; background: #fff; text-align: center; line-height: 50px;}
+.button button{ width: 80px; height: 25px; border: none; font-size: 12px; color: #fff; font-weight: bold; text-align: center; border-radius: 2px; background: #c40000;}
+.moresp{
+	clear: both;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+.moresp b{
+	background: #f7f7f7;
+	padding: 0 5px;
+}
+.moresp i{
+	width: 100%;
+	height: 1px;
+	margin-top: -25px;
+	display: block;
+	border-bottom: 1px dotted #666;
+}
+.clear{
+	clear: both;
+}

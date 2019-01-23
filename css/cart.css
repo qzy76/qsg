@@ -1,0 +1,87 @@
+@charset "gb2312";
+/* CSS Document */
+body{margin:0px; padding:0px; font-size:12px; line-height:20px; color:#333;}
+ul,li,ol,h1,dl,dd{ list-style:none; margin:0px; padding:0px;}
+img{ border:0px; vertical-align:middle;}
+#header{ width:100%; height:300px; background:#069;}
+#content{ width:1200px; margin:10px auto 5px auto; clear:both;}
+#allCheckBox{ position:relative; top:3px;}
+.title_0{ width:100%; height:40px; text-align:center; color:#FFF; background:#EE5C42; line-height:40px;}
+.title_1{ width:6%;}
+.title_3,.title_4,.title_5,.title_6,.title_7{ width:10%;}
+.num_input{ border:solid 1px #666; width:25px; height:15px; text-align:center;}
+tr a{
+	text-decoration: none;
+	color: #000;
+}
+tr a:hover{
+	color: #EE5C42;
+}
+.cart_td_1,.cart_td_2,.cart_td_3,.cart_td_4,.cart_td_5,.cart_td_6,.cart_td_7,.cart_td_8{ border-bottom:1px solid #999; text-align:center;}
+.cart_td_1{
+	width: 6%;
+}
+.cart_td_3,.cart_td_4,.cart_td_5,.cart_td_6,.cart_td_7{
+	width: 10%;
+}
+.cart_td_3{ text-align:left;}
+.cart_td_3 img{
+	width: 100px;height: 100px;
+}
+.cart_td_3 a{ color:#000; text-decoration: none;}
+.cart_td_3 a:hover{ color:#F00;}
+.cart_td_4{ font-weight:bold;}
+.cart_td_4 s{
+	display: block;
+	
+}
+.cart_td_6{
+	position: relative;
+}
+.cart_td_6 a,input{
+	position: absolute;
+	top:41px;
+	left:20px;
+}
+
+.cart_td_6 a:nth-of-type(2){
+	left: 67px;
+}
+.cart_td_6 a{
+	top:26px;
+}
+.cart_td_6 input{
+	left: 39px;
+}
+.cart_td_6 a{
+	text-decoration: none;
+}
+.cart_td_6 input.pnum{
+	width: 28px;text-align: center;
+	height: 18px;
+	line-height: 18PX;
+	border: none;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	outline-color: #EE5C42;
+}
+.cart_td_6 i{
+	font-size: 17px;
+	color: #999;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #999;
+}
+.cart_td_6 i:hover{
+	color: #666;
+	border-color: #666;
+}
+.cart_td_7{ font-weight:bold; color:#fe6400; font-size:14px;}
+.cart_td_8 a{ text-decoration: none;}
+.cart_td_8 a:hover{ color:#000;}
+.hand{ cursor:pointer;}
+.shopend{ text-align:right; padding-right:10px; padding-bottom:10px;}
+.bt{ background:#eb0028; height:40px; line-height:40px; color:#FFF; width:80px; cursor:pointer; border:1px solid #fd980a; }
+.bt-1{ margin-right:10px;}
+.bt-1 a{ color:#666; text-decoration: none;}
+.bt-1 a:hover{ color:#666;}

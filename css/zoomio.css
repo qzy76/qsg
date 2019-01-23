@@ -1,0 +1,43 @@
+#zoomiocontainer{ /* container containing enlarged image (native sized image) */
+	position: absolute;
+	z-index: 1000;
+	overflow: hidden;
+	background: white;
+	visibility: hidden;
+}
+
+#zoomiocontainer img{ /* image inside zoom container */
+	width: auto !important;
+	height: auto !important;
+	position: absolute !important;
+	display: block !important;
+}
+
+#zoomiocontainer.mobileclass{ /* CSS class added to zoom container on mobile OS */
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+#gallerycontainer{
+		width: 400px;
+		height: 400px;
+		
+	}
+	#gallery-target{
+		width: 398px;
+		height: 398px;
+	border: 1px solid #f5f5f5;
+	}
+	#gallery-thumbs{
+		text-align: center;
+	}
+	#gallery-thumbs img{
+	margin-top: 10px;
+	border: 1px solid #f5f5f5;
+    width: 72.5px;
+    height: 71px;
+    margin-right: 4.75px;
+	}
+	#gallery-thumbs img:nth-last-child(1){
+		margin-right: 0;
+	}

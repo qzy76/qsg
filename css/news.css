@@ -1,0 +1,117 @@
+*{
+				color: #474747;
+			}
+			a:hover{text-decoration: none;}
+			.main{
+				width: 1200px;
+				clear: both;
+				margin: 0 auto;
+				border-top: 2px solid #f7f7f7;
+				padding-top: 20px;
+			}
+			.main_left{
+				width: 800px;
+				height: 100%;
+				float: left;
+
+			}
+			.main_left ul li{
+				width: 100%;
+				height: 180px;
+			}
+			.main_left ul li{
+				clear: both;
+				position: relative;
+			}
+			
+			.main_left ul li img{
+				width: 210px;
+				height: 140px;
+				position: absolute;
+				left: 0px;
+				top: 10px;
+			}
+			.main_left ul li .txt_wrap{
+				width: 500px;
+				height: 400px;
+				position: absolute;
+				left: 230px;
+				top: 10px;
+			}
+			.main_left ul li .txt_wrap h1{
+				padding: 10px 0 5px;
+				font-size: 18px;
+			}
+			.main_left ul li .txt_wrap .content{
+				width: 500px;height: 60px;overflow: hidden;color: #868686;
+				padding-bottom: 5px;
+			}
+			.main_left ul li .txt_wrap span{
+				color: orange;
+			}
+			.main_left ul li .txt_wrap .date_tag{
+				float: right;color: #868686;
+			}
+			.main_left ul li .txt_wrap a{
+				display: block;
+			}
+			.main_right{
+				height: 100%;
+
+				width: 400px;
+				float: right;
+			}
+			.main_right .right_push{
+				width: 100%;
+			}
+			.main_right .right_push p{
+				font-family: "黑体";
+				width: 100%;
+				height: 40px;line-height: 40PX;font-size: 20px;display: block;border-bottom:1px solid #474747 ;
+				margin-bottom: 10px;
+			}
+			.main_right .right_push ul li{
+				width: 100%;height: 110px;
+			}
+			.main_right .right_push ul li img{ float: left; width: 132px; height: 82px;}
+			.main_right .right_push ul li .txt_push{ float: left;width: 250px; height: 80px;
+				
+			}
+			.main_right .right_push ul li .txt_push a h2{
+				 padding:5px 0 0 5px;width: 100%; height: 56px; overflow: hidden;
+			}
+			
+/*详情页*/
+.new h1{
+	font-size: 22px;
+	width: 100%;height: 40px;line-height: 40px;
+}
+.new>p{
+	display: block;width: 100%;height: 40px;line-height: 40px;
+}
+.new>.left_main>p>a{
+	display: block;width: 40px;height: 20px;float: left;
+	color: #ccc;
+}
+.new>.left_main>p>a:nth-of-type(2){
+	width: 85px;
+	color: #aaa;
+	
+}
+.new>.left_main>p>i:nth-of-type(1){
+	color: #ccc;
+	font-style: normal;
+}
+.new img{margin: auto;
+	max-height: 600px;
+	max-width: 800px;
+}
+.new .content{
+	text-indent:2em;
+	font-size: 14px;
+	margin: 0 40px 0 10px;
+}
+.new .content p{
+	/*左右对齐*/
+	text-align: justify;
+}

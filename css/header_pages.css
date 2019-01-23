@@ -1,0 +1,257 @@
+#header {
+	background: #fff;
+	position: relative;
+	width: 100%;
+	z-index: 10;
+	height: 195px;
+}
+
+#header .hnav_title {
+	background: #f6f6f6;
+	border-bottom: 1px solid #e6e6e6;
+	color: #888;
+	font-size: 12px;
+	height: 34px;
+	line-height: 34px;
+}
+
+#header .hnav_title a {
+	color: #333;
+}
+
+#header .hnav_title a:hover {
+	color: #61a955;
+}
+
+#header .hnav_title .hnav_center {
+	margin: auto;
+	width: 1200px;
+	background: #f6f6f6;
+	border-bottom: 1px solid #e6e6e6;
+	color: #888;
+	font-size: 12px;
+	height: 34px;
+	line-height: 34px;
+}
+
+#header .hnav_title .hnav_center .hnav_l .login {
+	color: #61a955;
+}
+
+#header .hnav_title .hnav_center .hnav_l .login:hover {
+	color: #2d750a;
+}
+
+#header .hnav_title .hnav_center .hnav_r {
+	float: right;
+	height: 24px;
+	line-height: 14px;
+	margin: 10px 0 10px;
+}
+
+#header .hnav_title .hnav_center .hnav_r .person_new li {
+	padding: 0 10px 0;
+	border-right: 1px solid #ddd;
+}
+
+#header .hnav_title .hnav_center .hnav_r .person_new li:nth-last-child(1) {
+	border: 0px;
+}
+
+#header .hmain_center {
+	margin: auto;
+	width: 1200px;
+	height: 160px;
+	
+}
+
+#header .hmain_center .search {
+	top: 35px;
+	left: 420px;
+}
+
+#header .hmain_center .search .search_form {
+	height: 36px;
+}
+
+#header .hmain_center .search .search_form .search_title input.search_pro {
+	border: 2px solid #EE5C46;
+	outline-color: #EE5C46;
+	border-right: none;
+	color: #aaa;
+	float: left;
+	font-size: 13px;
+	height: 40px;
+	line-height: 24px;
+	padding: 6px 10px;
+}
+
+#header .hmain_center .search .search_form button.search_bt {
+	border: 1px solid #EE5C46;
+	display: block;
+	color: #fff;
+	float: left;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 6px 0px;
+	width: 86px;
+}
+#header .hmain_center .search .search_form button.search_bt a{
+	text-decoration: none;
+	color: #fff;
+}
+#header .hmain_center .search .search_push {
+	width: 490px;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+#header .hmain_center .search .search_push li a {
+	display: block;
+	padding-right: 15px;
+}
+
+#header .hmain_center .header-banner {
+	top: 0px;
+	right: 0px;
+	height: 60px;
+}
+
+#header .hmain_center .header-banner ul li {
+	height: 50px;
+	line-height: 40px;
+	padding-right: 10px;
+}
+
+#header .hmain_center .header-banner ul li a img.img16 {
+	width: 16px;
+}
+
+#header .hmain_center .allproduct {
+	position: absolute;
+	width: 210px;
+	line-height: 40px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 11;
+}
+
+#header .hmain_center .allproduct .allpro {
+	width: 210px;
+	z-index: 25;
+	height: 40px;
+}
+
+#header .hmain_center .allproduct .allpro i {
+	padding: 0 10px 0;
+	font-weight: bold;
+}
+
+#header .hmain_center .allproduct .finepro {
+	background: #61a93e !important;
+	opacity: 0.9;
+	width: 210px;
+	z-index: 11;
+}
+
+#header .hmain_center .allproduct .finepro ul li {
+	padding-left: 20px;
+}
+
+#header .hmain_center .allproduct .finepro ul li:hover {
+	background-color: #E6E6E6;
+}
+
+#header .hmain_center .allproduct .finepro ul li:hover h3 {
+	color: #61a955;
+}
+
+#header .hmain_center .allproduct .finepro ul li h3 {
+	height: 35.2px;
+	line-height: 35.1px;
+}
+
+#header .hmain_center .allproduct .finepro ul li .fine_pro {
+	font-size: 12px;
+	font-weight: normal;
+	height: 22px;
+	line-height: 22px;
+	overflow: hidden;
+}
+
+#header .hmain_center .allproduct .finepro ul li:hover .fine_pro a {
+	color: #666;
+}
+
+#header .hmain_center .allproduct .finepro ul li h3 i {
+	display: none;
+	padding-right: 5px;
+}
+#header .hmain_center .allproduct .finepro ul li h3 a{
+	color: #fff;
+	text-decoration: none;
+}
+#header .hmain_center .allproduct .finepro ul li:hover h3 a{
+	color: #61a955;
+}
+#header .hmain_center .allproduct .finepro ul li .fine_pro a:nth-of-type(1) {
+	padding: 0px;
+}
+
+#header .hmain_center .allproduct .finepro ul li .fine_pro a {
+	display: block;
+	float: left;
+	padding-left: 10PX;
+}
+
+#header .hmain_center .allproduct .finepro ul li .fine_pro1 {
+	width: 780px;
+	height: 480px;
+	background: #fff;
+	border: 1px solid #eee;
+	position: absolute;
+	top: 40px;
+	border-left: 0px;
+	left: 210px;
+	display: none;
+}
+
+#header .hmain_center .allproduct .finepro ul li .fine_pro1 dt {
+	padding: 10px 0 0 20px;
+	font-weight: bold;
+	color: #000;
+	position: relative;
+	width: 87px;
+	height: 50px;
+}
+
+#header .hmain_center .allproduct .finepro ul li .fine_pro1 dt i {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-style: normal;
+}
+
+#header .hmain_center .allproduct .finepro ul li .fine_pro1 dd {
+	max-width: 660px;
+	max-height: 80px;
+	overflow: hidden;
+	display: block;
+	float: left;
+	padding-top: 10px;
+}
+
+#header .hmain_center .allproduct .finepro ul li .fine_pro1 dd a {
+	display: block;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin: 5px 10px;
+	padding: 5px 10px;
+	width: auto;
+	text-align: center;
+	border-radius: 8px;
+	background: #A3D7FF;
+	opacity: 0.9;
+}

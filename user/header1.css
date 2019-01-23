@@ -1,0 +1,65 @@
+#header {
+	background: #fff;
+	position: relative;
+	width: 100%;
+	z-index: 10;
+	height: 65px;
+}
+
+#header .hnav_title {
+	background: #f6f6f6;
+	border-bottom: 1px solid #e6e6e6;
+	color: #888;
+	font-size: 12px;
+	height: 34px;
+	line-height: 34px;
+}
+
+#header .hnav_title a {
+	color: #333;
+}
+
+#header .hnav_title a:hover {
+	color: #61a955;
+}
+
+#header .hnav_title .hnav_center {
+	margin: auto;
+	width: 1200px;
+	background: #f6f6f6;
+	border-bottom: 1px solid #e6e6e6;
+	color: #888;
+	font-size: 12px;
+	height: 34px;
+	line-height: 34px;
+}
+
+#header .hnav_title .hnav_center .hnav_l .login {
+	color: #61a955;
+}
+
+#header .hnav_title .hnav_center .hnav_l .login:hover {
+	color: #2d750a;
+}
+
+#header .hnav_title .hnav_center .hnav_r {
+	float: right;
+	height: 24px;
+	line-height: 14px;
+	margin: 10px 0 10px;
+}
+
+#header .hnav_title .hnav_center .hnav_r .person_new li {
+	padding: 0 10px 0;
+	border-right: 1px solid #ddd;
+}
+
+#header .hnav_title .hnav_center .hnav_r .person_new li:nth-last-child(1) {
+	border: 0px;
+}
+
+#header .hmain_center {
+	margin: auto;
+	width: 1200px;
+	height: 160px;
+}
